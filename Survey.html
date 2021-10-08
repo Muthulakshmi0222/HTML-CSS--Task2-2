@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Survey.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+  <title>
+      Survey Form
+  </title>
+</head>
+<body>
+    <form>
+        <fieldset class="container">
+  <label class="Form_Text" id="Name">Name<span class="required">*</span></label><br>
+  <input id="First" type="text" placeholder="First" required/>
+  <input id="Last" type="text" placeholder="Last"/>
+  <p class="Name">First <span class="Last">Last</span></p><br>
+  <label class="Form_Text" id="Email">Email<span class="required">*</span></label><br>
+  <input id="Email" type="email" placeholder="Email" required /><br><br>
+  <label class="Form_Text" id="Experience">Your Experience<span class="required">*</span></label><br>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span><br>
+  <p class="rating_words">Overall, how would you rate you experience with us?</p>
+  <p class="Form_Text">How satisfied are you with<span class="required">*</span></p>
+  <table class="Table_align">
+    <tr>
+      <td></td>
+      <td>Very Unsatisfied</td>
+      <td>Unsatisfied</td>
+      <td>Neutral</td>
+      <td>Satisfied</td>
+      <td>Very Satisfied</td>
+    </tr>
+      <tr>
+        <td class="text_style">Purchase</td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+      </tr>
+      <tr>
+        <td class="text_style">Service</td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+      </tr>
+      <tr>
+        <td class="text_style">Company Overall</td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+      </tr>
+      </table>
+      <p class="Form_Text">How likely are you to<span class="required">*</span></p>
+  <table class="Table_align">
+    <tr>
+      <td></td>
+      <td>Very Unlikely</td>
+      <td>Unlikely</td>
+      <td>Neutral</td>
+      <td>likely</td>
+      <td>Very Likely</td>
+    </tr>
+      <tr>
+        <td class="text_style">Buy from us again</td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+      </tr>
+      <tr>
+        <td class="text_style">Recommend our product to others</td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+      </tr>
+      <tr>
+        <td class="text_style">Recommend our company to others</td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+        <td><input type="radio" id="radio"></td>
+      </tr>
+      </table>
+      <p class="Form_Text">Additional comments or suggestions</p>
+      <textarea id="text"></textarea><br><br>
+      <button type="submit" id="submit">Submit</button>
+</fieldset>
+  </form>
+</body>
+</html>

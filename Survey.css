@@ -1,0 +1,62 @@
+.Form_Text{
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.Last{
+    margin-left: 10.5rem;
+    margin-top: 0;
+}
+#Last{
+   margin-left: 1rem;
+}
+.Name{
+    font-family: 'Mulish', sans-serif;
+    font-size: 10px;
+}
+.checked {
+    color: orange;
+    margin: 0.3rem;
+  }
+.Table_align{
+      text-align: center;
+      border-spacing: 20px;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 13px;
+      width: 100%;
+}
+.text_style{
+        text-align: justify;
+}
+tr:nth-child(even) {
+        background-color: #f2f2f2;
+}
+.required {
+    color: red;
+}
+.rating_words{
+    font-size: 0.8rem;
+}
+button{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14px;
+}
+textarea{
+    min-width: 300px;
+    height: 300px;
+}
+.container{
+    border: none;
+    min-width: 300px;
+    height: 300px;
+}
+@media(min-width: 300px){
+    .container{
+      max-width: 100%;
+    }
+  }
+  @media(min-width:300px){
+        textarea{
+            max-width: 100%;
+        }
+  }
